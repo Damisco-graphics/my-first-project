@@ -1,0 +1,235 @@
+.Navbar {
+  margin-right: 0;
+  justify-content: space-between;
+}
+
+.article {
+  height: 100%;
+  position: relative;
+  overflow: visible;
+}
+
+.header {
+  font-size: 300%;
+  font-weight: bolder;
+  color: white;
+  text-align: left;
+  position: absolute;
+  top: 25%;
+  bottom: 0;
+  left: 10%;
+  right: 0;
+  height: fit-content;
+  margin: auto;
+  text-shadow: 5rem;
+}
+
+.msubtitle {
+  position: relative;
+  width: 652px;
+  height: 25px;
+
+  font-family: "IBM Plex Sans";
+  font-style: oblique;
+  margin-left: 30%;
+  font-size: 23px;
+  line-height: 134.17%;
+  left: 3%;
+  color: white;
+  text-shadow: 50%;
+}
+
+.card-pix,
+.card-pix-top,
+.card-pix-bottom {
+  width: 100%;
+  height: 400px;
+  margin-right: 0;
+  object-fit: cover;
+  -webkit-filter: blur(2px);
+  -moz-filter: blur(2px);
+  -o-filter: blur(2px);
+  -ms-filter: blur(2px);
+  filter: blur(2px);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.45) 40%,
+    rgba(0, 0, 0, 0.6) 100%
+  );
+}
+
+.card-pix,
+.card-pix-top {
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
+}
+
+.card-pix,
+.card-pix-bottom {
+  border-bottom-right-radius: calc(0.25rem - 1px);
+  border-bottom-left-radius: calc(0.25rem - 1px);
+}
+
+.DropContain {
+  display: flex;
+  position: relative;
+  /* float: right; */
+  /* justify-content: space-between; */
+  justify-content: right;
+
+  /* margin-left: 650px; */
+  margin-top: -35px;
+  margin-bottom: 5px;
+  /* justify-items: baseline; */
+  margin-left: 50%;
+}
+
+button {
+  margin-left: 20px;
+}
+
+.afterloginCard {
+  position: relative;
+  width: 20rem;
+  height: max-content;
+  margin-right: 10%;
+  display: flex;
+  flex-direction: column;
+  float: right;
+  /* justify-: right; */
+  top: 100px;
+  justify-content: space-between;
+  color: black;
+  font-size: large;
+}
+
+/* .newd {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  min-width: inherit;
+} */
+
+.Noida {
+  border-bottom: 2px solid #b8b8b8;
+}
+
+t3 {
+  margin-right: 150px;
+}
+
+t4 {
+  margin-top: 80px;
+  position: relative;
+  /* margin-right: -50px; */
+
+  color: #000000;
+
+  opacity: 0.5;
+}
+
+t5 {
+  position: absolute;
+  margin-top: 250px;
+  letter-spacing: 0.1em;
+}
+
+.acircle-img {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  /* margin-top: 50%; */
+  left: 0px;
+  border-radius: 24px;
+}
+
+.aRecommendedGroups {
+  position: relative;
+  margin-top: 50%;
+  margin-bottom: -25%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.abutton {
+  border-radius: 100%;
+  height: width;
+}
+
+/* Popup style */
+.popup-box {
+  position: fixed;
+
+  background: #00000050;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+
+.box {
+  position: relative;
+  width: 50%;
+  margin: 0 auto;
+  height: auto;
+  min-height: 300px;
+  margin-top: calc(100vh - 85vh - 20px);
+  background-color: #d4c144;
+  background-image: url("https://www.transparenttextures.com/patterns/argyle.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  border-radius: 4px;
+  padding: 20px;
+  border: 1px solid #999;
+  border-radius: 5%;
+  overflow: auto;
+}
+
+.close-icon {
+  content: "x";
+  cursor: pointer;
+  position: fixed;
+  right: calc(25% - 10px);
+  top: calc(100vh - 85vh - 33px);
+  background: #ededed;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  line-height: 20px;
+  text-align: center;
+  border: 1px solid #999;
+  font-size: 20px;
+}
+
+/* .modal {
+  font-size: 12px;
+}
+.modal > .header {
+  width: 100%;
+  border-bottom: 1px solid gray;
+  font-size: 18px;
+  text-align: center;
+  padding: 5px;
+}
+.modal > .content {
+  width: 100%;
+  padding: 10px 5px;
+}
+.modal > .actions {
+  width: 100%;
+  padding: 10px 5px;
+  margin: auto;
+  text-align: center;
+}
+.modal > .close {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  padding: 2px 5px;
+  line-height: 20px;
+  right: -10px;
+  top: -10px;
+  font-size: 24px;
+  background: #ffffff;
+  border-radius: 18px;
+  border: 1px solid #cfcece;
+} */

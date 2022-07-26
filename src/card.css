@@ -1,0 +1,156 @@
+.p-4 {
+  display: flex;
+  flex-direction: column-reverse;
+  height: max-content;
+
+  flex-shrink: 5%;
+  /* float: right;
+  justify-content: right; */
+  margin-right: 60%;
+  justify-self: right;
+  /* max-zoom: 0.9; */
+}
+
+.CrdContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  background-color: aqua;
+  border: 7px;
+  border-radius: 10%;
+  /* height: 850px; */
+  /* width: 1000px; */
+  color: white;
+  text-decoration-color: black;
+  margin-top: 20px;
+  margin-left: 2%;
+  margin-right: 40%;
+  max-zoom: 1;
+  display: flex;
+  float: left;
+  flex-direction: row;
+  flex: 1;
+  /* flex-wrap: wrap; */
+  text-align: left;
+  box-shadow: 2px black;
+}
+
+.h1 {
+  color: red;
+  padding-left: 50px;
+}
+
+/* .Createcard {
+  display: flex;
+  flex-wrap: wrap;
+} */
+
+.img {
+  background-size: inherit;
+  position: relative;
+  margin-top: 100px;
+  border-radius: 25px;
+
+  /* margin-left: -30px; */
+}
+
+.category {
+  position: relative;
+  width: 105px;
+  height: 25px;
+  left: 0px;
+  margin-bottom: 10px;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  top: 5px;
+
+  color: #000000;
+}
+
+.button {
+  position: sticky;
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  font-size: 18rem;
+}
+
+.span {
+  /* width: inherit; */
+  /* top: 1532px; */
+  /* float: right; */
+  position: relative;
+  display: flex;
+  /* padding-left: 20px; */
+  flex: 1;
+  top: 5px;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 19.5px;
+  justify-content: space-between;
+  /* justify-items: left; */
+  /* align */
+  /* align-items: flex-start; */
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.mfooter {
+  margin-top: 15px;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: bolder;
+}
+
+.circle-img {
+  /* position: absolute; */
+  width: 48px;
+  height: 48px;
+  left: 0px;
+  border-radius: 24px;
+}
+
+t1 {
+  display: flex;
+  justify-content: right;
+  align-content: baseline;
+  font-size: large;
+}
+
+t2 {
+  margin-left: 20px;
+}
+
+.mtitle {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  border: none;
+}
+
+.subtitle {
+  position: relative;
+  width: 652px;
+  height: 25px;
+  /* left: 220px; */
+  /* top: 2px; */
+
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 134.17%;
+  /* or 25px */
+
+  color: #5c5c5c;
+}
